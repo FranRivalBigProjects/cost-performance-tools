@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=+current.value,g=+growth.value;if(!c||!g){res.innerText='Enter values';return;}res.innerText=`Scaled: ${(c*(1+g/100)).toFixed(2)}`;}

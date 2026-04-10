@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let u=+units.value,t=+time.value;if(!u||!t){res.innerText='Enter values';return;}res.innerText=`Usage: ${(u*t).toFixed(2)}`;}

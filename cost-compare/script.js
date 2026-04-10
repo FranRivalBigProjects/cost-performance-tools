@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let a=+a.value,b=+b.value;if(!a||!b){res.innerText='Enter values';return;}res.innerText=a<b?'Option A cheaper':'Option B cheaper';}

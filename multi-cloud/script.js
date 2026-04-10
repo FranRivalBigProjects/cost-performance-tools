@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let p=+providers.value,c=+cost.value;if(!p||!c){res.innerText='Enter values';return;}res.innerText=`Total: $${(p*c).toFixed(2)}`;}
